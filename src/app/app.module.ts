@@ -17,6 +17,7 @@ import { CartComponent } from './cart/cart.component';
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
       { path: 'products/:productId', component: ProductDetailComponent},
+      { path: 'cart', component: CartComponent}
     ])
   ],
   declarations: [
